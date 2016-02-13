@@ -30,8 +30,9 @@ namespace ConetxtSearchHelper
 
         public void Start()
         {
-            Settings settings = new Settings();
-            settings.ShowDialog();
+            //Hide the settings for now, as the dialog is far from finished 
+            //Settings settings = new Settings();
+            //settings.ShowDialog();
 
             while (true)
             {
