@@ -1,6 +1,6 @@
 This Project is a master thesis project by Alexander Adelmann from Technical University of Graz.
 The application analyses the context of the computer the user ic working on and then searches various data sources.
-The results of the searches are then shown in a Word 2013 Addin.
+The results of the search are then shown in a Word 2013 Addin.
 
 The project is runnable and doing its job, but there are lots of parts where it can be approved. 
 
