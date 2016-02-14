@@ -119,7 +119,7 @@ namespace ContextRecognizer
                     {
                         SensiumResultPhrase phrase = new SensiumResultPhrase();
                         phrase.Text = ent.normalized.ToString();
-                        phrase.Score = 0;
+                        phrase.Score = 1;
 
                         returnedPhrases.Add(phrase);
                     }

@@ -118,29 +118,29 @@ namespace ContextRecognizer
             List<SensiumResultPhrase> normalized = new List<SensiumResultPhrase>();
             foreach(SensiumResultPhrase ph in results)
             {
-                if(ph.Type == "url")
-                {
-                    double highermean = mean + mean / 2;
+                //if(ph.Type == "url")
+                //{
+                //    //double highermean = mean + mean / 2;
 
-                    while(highermean >= 1)
-                    {
-                        highermean = highermean - highermean / 4;
-                    }
+                //    //while(highermean >= 1)
+                //    //{
+                //    //    highermean = highermean - highermean / 4;
+                //    //}
 
-                    if (ph.Score > highermean)
-                    {
-                        normalized.Add(ph);
-                    }
+                //    //if (ph.Score > highermean)
+                //    //{
+                //        normalized.Add(ph);
+                //    //}
 
-                }
-                else
-                {
+                //}
+                //else
+                //{
 
                     if (ph.Score > mean)
                     {
                         normalized.Add(ph);
                     }
-                }
+                //}
             }
 
             //filter fillwords like Und here
