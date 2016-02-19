@@ -91,6 +91,8 @@ namespace Utilities
             return returnvalue;
         }
 
+        //This function is taken from the MSDN :
+        //https://msdn.microsoft.com/en-us/library/office/ff462097.aspx
         public static Outlook.Application GetApplicationObject()
         {
 
