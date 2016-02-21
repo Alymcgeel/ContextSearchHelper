@@ -51,6 +51,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBBackup", "DBBackup", "{272F9E3F-9404-4A82-AD17-9C02D6F703B3}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\Desktop\ContextSearchHelper.bak = ..\..\..\..\Desktop\ContextSearchHelper.bak
+		..\..\..\..\Desktop\Master_Arbeit\Files\Icons.xml = ..\..\..\..\Desktop\Master_Arbeit\Files\Icons.xml
 	EndProjectSection
 EndProject
 Global

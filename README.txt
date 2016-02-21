@@ -10,8 +10,13 @@ MSSQL Express 2012 R2
 Microsft Word 2013
 Visual Studio 2015 Premium
 
-Database setup:
+Setup:
 The applications uses a MSSQL Database to store information. An empty database is located in the "DBBackup" directory.
 To use the DB, restore it to a SQL Server and change the Connection string in the properties of the DAL Project inside the Logging Folder.
 
-When the db is set up the application can be launched. The Word AddIn and the Core application are seperated applications. 
+For the Word Sidebar application to properly display the result types, it is needed that the "Icon" file is properly configured as well.
+The location of the file is hardcoded in the Utilities project in the Helper class in the GetBase64ImageByName function.
+A sample result type configuration file can be found in the DBBackup folder of the project. 
+
+For the sensors and the datasource to work properly the location of the dll plugins has to be configured correctly. These values are hardcoded strings
+which can be changed in the classes: SearchClientWrapper (in the SearchProxy project) and ContextSourceProxy (ContextRecognizer project).
