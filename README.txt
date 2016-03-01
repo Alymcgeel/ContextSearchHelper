@@ -28,3 +28,4 @@ The class writes to the Windows event log. Therefore it must specified in which 
 On a english system the standard section is called "Application". This string has to be edited in case
 the system is not an english one. 
 
+To run the Word AddIn Project it could be possible that a new certificate must be installed. To do this, go to the project settings and under the sign tab just create a new test certificate
