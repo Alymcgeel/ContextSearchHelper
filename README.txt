@@ -1,4 +1,5 @@
-This Project is a master thesis project by Alexander Adelmann from Technical University of Graz.
+This Project uses the Appache License 2.0. For more details have a look at the LICENSE.txt file.
+
 The application analyses the context of the computer the user ic working on and then searches various data sources.
 The results of the search are then shown in a Word 2013 Addin.
 
