@@ -8,7 +8,7 @@ Dev-Environment
 Windows Server 2012 R2
 MSSQL Express 2012 R2
 Microsft Word 2013
-Visual Studio 2015 Premium (SQL server data tools must be installed)
+Visual Studio 2015 Community (SQL server data tools must be installed)
 Office developer tools for Visual studio ( https://www.visualstudio.com/en-us/features/office-tools-vs.aspx)
 
 Setup:
